@@ -20,6 +20,8 @@ Here are the image list you need to upload to Docker Repository for DevOps Utili
 * optional: commerce/filebeat:latest<br>
 * optional: commerce/evenagent:latest<br>
 
+We recommand to use Harbor, see [How to install Harbor](https://github.com/goharbor/harbor/blob/master/docs/installation_guide.md)
+
 ## Helm Charts Repository ##
 
 When you trigger job to deploy Commerce V9, DeployController will auto fetch Helm Charts you specified from Helm Charts Repository. Since the Helm Charts reposiroty can be any web server. so we not include in
