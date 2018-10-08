@@ -93,6 +93,9 @@ Then you can logon DeployController and manually config those parameters in Mana
 
  <img src="https://github.com/IBM/wc-devops-utilities/raw/master/doc/images/DeployController-GlobalConfig2.png" width = "700" height = "450" alt="Overview" align=center /><br>
 
+## Limitation ##
+This DevOps just support be deployed on "default" namespace, becausethe "namespace" value in some scripts is hardcode. Welcome to anyone to contribute it to make some change to remove this limiation. In short time, we don't have plan to do enhancement on it.
+
 
 ## Deploy with Helm Charts ##
 ```
